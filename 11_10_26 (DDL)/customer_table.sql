@@ -1,5 +1,5 @@
 create table customer (
-cus_code integer primary key,
+cus_code integer primary key not null unique,
 cus_lname text not null,
 cus_fname text not null,
 cus_initial text,

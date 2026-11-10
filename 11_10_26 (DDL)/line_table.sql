@@ -1,7 +1,7 @@
 create table line(
-  inv_number integer,
-  line_number integer,
-  p_code text,
+  inv_number integer not null,
+  line_number integer not null,
+  p_code text not null,
   line_units integer not null,
   line_price integer not null,
   primary key(inv_number,line_number),
