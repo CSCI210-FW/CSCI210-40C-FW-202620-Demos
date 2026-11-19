@@ -1,0 +1,7 @@
+1. Select everything from the job table
+
+2. Select the first name, last name and hire date for all employees with the job code 510 who have less than 10 years on the job.
+
+3. Select all charges from March 23, 2018
+
+4. Select a distinct list of employee numbers from the assignment table.
